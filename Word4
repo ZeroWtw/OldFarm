@@ -380,10 +380,6 @@ MainSection:NewButton("(Low-Server-Finder)", "()", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jXQ089vY"))()    
 end)
 
-MainSection:NewKeybind("(Hide-Skript)", "(Pressing this will open and close the skript.)", Enum.KeyCode.LeftAlt, function()
-	Library:ToggleUI()
-end)
-
 
 
 -- Credits
@@ -395,6 +391,9 @@ MainSection:NewDropdown("Credits", "", {"ecotric", "ecotric", "ecotric"}, functi
 
 end)
 
+MainSection:NewKeybind("(Hide-Skript)", "(Pressing this will open and close the skript.)", Enum.KeyCode.LeftAlt, function()
+	Library:ToggleUI()
+end)
 
 -- *
 
